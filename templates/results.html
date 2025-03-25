@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>based on your mark you have {{results}}</h1>
+
+        {% if results> 50 %}
+        <h1>you have passed with mark{{results}}</h1>
+        {% else %}
+        <h1>you have failed with mark{{results}}</h1>
+        {% endif %}
+<!--
+        {# comment #}
+        {% for key,value in results.items() %}
+        
+            <h1>{{key}}</h1>
+            <h1>{{value}}</h1>
+      {% endfor %}
+      -->
+    </body>
+
+</html>
